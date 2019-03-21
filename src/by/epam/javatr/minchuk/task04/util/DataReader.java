@@ -5,7 +5,6 @@ import java.io.*;
 public class DataReader {
 
     private static final String FILE_PATH = "InputData.txt";
-    private File fileName;
 
     public DataReader() {
     }

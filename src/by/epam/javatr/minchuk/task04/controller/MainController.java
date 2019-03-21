@@ -2,6 +2,8 @@ package by.epam.javatr.minchuk.task04.controller;
 
 import by.epam.javatr.minchuk.task04.model.entity.TextItem;
 import by.epam.javatr.minchuk.task04.model.entity.Word;
+import by.epam.javatr.minchuk.task04.model.parser.AbstractParser;
+import by.epam.javatr.minchuk.task04.model.parser.ChainParser;
 import by.epam.javatr.minchuk.task04.util.DataReader;
 import by.epam.javatr.minchuk.task04.util.DataWriter;
 
@@ -15,7 +17,6 @@ public class MainController {
         DataWriter dataWriter = new DataWriter();
         //dataWriter.writeFile(inputText);
 
-        TextItem word = new Word("sdsd");
-        System.out.println();
+        AbstractParser parserChain = ChainParser.getChainParser();
     }
 }
