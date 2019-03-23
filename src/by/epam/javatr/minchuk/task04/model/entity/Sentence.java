@@ -8,15 +8,37 @@ public class Sentence extends TextItem {
 
     private List<TextItem> lexemes;
 
+    /**
+     * Default constructor
+     */
     public Sentence() {
         super(TextItemType.SENTENCE);
-        lexemes = new ArrayList<>();
+        this.lexemes = new ArrayList<>();
     }
 
+    /**
+     * Constructor
+     *
+     * @param lexemes
+     */
     public Sentence(List<TextItem> lexemes) {
         super(TextItemType.SENTENCE);
         this.lexemes = lexemes;
     }
+
+    /**
+     * Copy constructor
+     *
+     * @param sentence
+     */
+    public Sentence(Sentence sentence) {
+        super(TextItemType.SENTENCE);
+        this.lexemes = new ArrayList<>();
+        for (int i = 0; i < sentence.lexemes.size(); i++) {
+            this.lexemes.add(sentence.lexemes.get(i));
+        }
+    }
+
 
     public Sentence(TextItemType textItemType, List<TextItem> lexemes) {
         super(textItemType);
@@ -26,6 +48,16 @@ public class Sentence extends TextItem {
     @Override
     public List<TextItem> getChild() {
         return lexemes;
+    }
+
+    @Override
+    public void addItem(TextItem textItem) {
+        lexemes.add(textItem);
+    }
+
+    @Override
+    public void removeItem(TextItem textItem) {
+        lexemes.remove(textItem);
     }
 
     @Override

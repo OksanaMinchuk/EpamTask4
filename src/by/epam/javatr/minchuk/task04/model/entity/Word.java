@@ -6,13 +6,31 @@ public class Word extends TextItem {
 
     private String value;
 
+    /**
+     * Default constructor
+     */
     public Word() {
         super(TextItemType.WORD);
     }
 
+    /**
+     * Constructor
+     *
+     * @param value
+     */
     public Word(String value) {
         super(TextItemType.WORD);
         this.value = value;
+    }
+
+    /**
+     * Copy constructor
+     *
+     * @param word
+     */
+    public Word(Word word) {
+        super(TextItemType.WORD);
+        this.value = word.value;
     }
 
     @Override

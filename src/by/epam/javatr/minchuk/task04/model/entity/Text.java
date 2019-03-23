@@ -8,19 +8,50 @@ public class Text extends TextItem {
 
     private List<TextItem> paragraphs;
 
+    /**
+     * Default constructor
+     */
     public Text() {
         super(TextItemType.TEXT);
-        paragraphs = new ArrayList<>();
+        this.paragraphs = new ArrayList<>();
     }
 
+    /**
+     * Constructor
+     *
+     * @param paragraphs
+     */
     public Text(List<TextItem> paragraphs) {
         super(TextItemType.TEXT);
         this.paragraphs = paragraphs;
     }
 
+    /**
+     * Copy constructor
+     *
+     * @param text
+     */
+    public Text(Text text) {
+        super(TextItemType.TEXT);
+        this.paragraphs = new ArrayList<>();
+        for (int i = 0; i < text.paragraphs.size(); i++) {
+            this.paragraphs.add(text.paragraphs.get(i));
+        }
+    }
+
     @Override
     public List<TextItem> getChild() {
         return paragraphs;
+    }
+
+    @Override
+    public void addItem(TextItem textItem) {
+        paragraphs.add(textItem);
+    }
+
+    @Override
+    public void removeItem(TextItem textItem) {
+        paragraphs.remove(textItem);
     }
 
     @Override

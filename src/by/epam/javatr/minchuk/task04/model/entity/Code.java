@@ -7,12 +7,30 @@ public class Code extends TextItem {
     private static final TextItemType textType = TextItemType.CODE;
     private String value;
 
+    /**
+     * Default constructor
+     */
     public Code() {
     }
 
+    /**
+     * Constructor
+     *
+     * @param value
+     */
     public Code(String value) {
         this.value = value;
     }
+
+    /**
+     * Copy constructor
+     *
+     * @param code
+     */
+    public Code(Code code) {
+        this.value = code.value;
+    }
+
 
     public static TextItemType getTextType() {
         return textType;

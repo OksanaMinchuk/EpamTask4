@@ -1,5 +1,12 @@
 package by.epam.javatr.minchuk.task04.model.entity;
 
+/**
+ * Class {@code TextItem} is a superclass for all text components.
+ *
+ * @autor Oksana Minchuk
+ * @version 1.0 23.03.2019
+ */
+
 public class TextItem extends AbstractComponent {
 
     public enum TextItemType {
@@ -8,9 +15,17 @@ public class TextItem extends AbstractComponent {
 
     private TextItemType textItemType;
 
+    /**
+     * Default constructor
+     */
     public TextItem() {
     }
 
+    /**
+     * Constructor
+     *
+     * @param textItemType
+     */
     public TextItem(TextItemType textItemType) {
         this.textItemType = textItemType;
     }
@@ -21,6 +36,13 @@ public class TextItem extends AbstractComponent {
 
     @Override
     public String getContent() {
-        return "textItemType=" + textItemType;
+        return textItemType.toString();
+    }
+
+    @Override
+    public String toString() {
+        return "TextItem{" +
+                "textItemType=" + textItemType +
+                '}';
     }
 }

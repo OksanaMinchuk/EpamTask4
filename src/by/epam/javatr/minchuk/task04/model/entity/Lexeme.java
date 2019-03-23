@@ -6,16 +6,32 @@ public class Lexeme extends TextItem {
 
     private String value;
 
+    /**
+     * Default constructor
+     */
     public Lexeme() {
         super(TextItemType.LEXEME);
     }
 
+    /**
+     * Constructor
+     *
+     * @param value
+     */
     public Lexeme(String value) {
         super(TextItemType.LEXEME);
         this.value = value;
     }
 
-
+    /**
+     * Copy constructor
+     *
+     * @param lexeme
+     */
+    public Lexeme(Lexeme lexeme) {
+        super(TextItemType.LEXEME);
+        this.value = lexeme.value;
+    }
 
     @Override
     public String getContent() {
