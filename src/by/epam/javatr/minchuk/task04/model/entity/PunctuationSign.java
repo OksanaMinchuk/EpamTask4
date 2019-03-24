@@ -3,22 +3,20 @@ package by.epam.javatr.minchuk.task04.model.entity;
 import java.util.Objects;
 
 /**
- * Class {@code Code}
+ * Class {@code PunctuationSign}
  *
  * @autor Oksana Minchuk
  * @version 1.0 23.03.2019
  */
+public class PunctuationSign extends TextItem {
 
-public class Code extends TextItem {
-
-    //private static final TextItemType textType = TextItemType.CODE;
     private String value;
 
     /**
      * Default constructor
      */
-    public Code() {
-        super(TextItemType.CODE);
+    public PunctuationSign() {
+        super(TextItemType.PUNKTUATION);
     }
 
     /**
@@ -26,8 +24,8 @@ public class Code extends TextItem {
      *
      * @param value
      */
-    public Code(String value) {
-        super(TextItemType.CODE);
+    public PunctuationSign(String value) {
+        super(TextItemType.PUNKTUATION);
         if (value != null) {
             this.value = value;
         }
@@ -36,12 +34,12 @@ public class Code extends TextItem {
     /**
      * Copy constructor
      *
-     * @param code
+     * @param punctuationSign
      */
-    public Code(Code code) {
-        super(TextItemType.CODE);
-        if (code != null) {
-            this.value = code.value;
+    public PunctuationSign(PunctuationSign punctuationSign) {
+        super(TextItemType.PUNKTUATION);
+        if (punctuationSign != null) {
+            this.value = punctuationSign.value;
         }
     }
 
@@ -54,8 +52,8 @@ public class Code extends TextItem {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Code code = (Code) o;
-        return value.equals(code.value);
+        PunctuationSign that = (PunctuationSign) o;
+        return value.equals(that.value);
     }
 
     @Override
@@ -65,7 +63,7 @@ public class Code extends TextItem {
 
     @Override
     public String toString() {
-        return "Code{" +
+        return "PunctuationSign{" +
                 "value='" + value + '\'' +
                 '}';
     }

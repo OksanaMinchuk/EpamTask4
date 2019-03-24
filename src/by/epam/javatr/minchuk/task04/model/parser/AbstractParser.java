@@ -1,6 +1,7 @@
 package by.epam.javatr.minchuk.task04.model.parser;
 
 import by.epam.javatr.minchuk.task04.model.entity.TextItem;
+import by.epam.javatr.minchuk.task04.model.exception.TextNullPointerException;
 
 import java.util.List;
 
@@ -18,6 +19,6 @@ public abstract class AbstractParser {
         return nextParser;
     }
 
-    public abstract TextItem parse (String text) ;
+    public abstract TextItem parse (String text) throws TextNullPointerException;
 
 }

@@ -1,21 +1,13 @@
 package by.epam.javatr.minchuk.task04.controller;
 
 import by.epam.javatr.minchuk.task04.model.entity.TextItem;
-import by.epam.javatr.minchuk.task04.model.entity.Word;
-import by.epam.javatr.minchuk.task04.model.parser.AbstractParser;
+import by.epam.javatr.minchuk.task04.model.exception.TextNullPointerException;
+import by.epam.javatr.minchuk.task04.model.exception.TextUnsupportedOperationException;
 import by.epam.javatr.minchuk.task04.model.parser.ChainParser;
+import by.epam.javatr.minchuk.task04.model.parser.TextParser;
 import by.epam.javatr.minchuk.task04.util.DataReader;
-import by.epam.javatr.minchuk.task04.util.DataWriter;
-
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import by.epam.javatr.minchuk.task04.view.Printable;
+import by.epam.javatr.minchuk.task04.view.printercreator.PrinterCreator;
 
 /**
  * Class {@code MainController}
@@ -28,37 +20,43 @@ public class MainController {
 
     public static void main(String[] args) {
 
-        //DataReader dataReader = new DataReader();
-        //String inputText = dataReader.readFile();
+        DataReader dataReader = new DataReader();
+        String inputText = dataReader.readFile();
 
-        //DataWriter dataWriter = new DataWriter();
-        //dataWriter.writeFile(inputText);
+        Printable printer = PrinterCreator.getPrinter(PrinterCreator.PrinterType.CONSOLE);
 
-        AbstractParser parserChain = ChainParser.getChainParser();
-
+        TextItem resultText = null; //2
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("InputData.txt"));
-            String string;
-            for (int i = 0; i < 5; i++) {
-                System.out.println(i);
-                System.out.println(bufferedReader.readLine());
-
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+            resultText = ChainParser.getChainParser().parse(inputText);
+        } catch (TextNullPointerException e) {
             e.printStackTrace();
         }
+        printer.print(resultText);
+
+//        printer.print("resultText.getTextItemType" + resultText.getTextItemType());
+//        printer.print("resultText.toString" + resultText.toString());
+//        printer.print("***content: ");
+//        printer.print("resultText.getContent().length()" + resultText.getContent().length());
+//        try {
+//            printer.print("resultText.getChild().getClass" + resultText.getChild().getClass());
+//            printer.print("resultText.getChild().get(0).getTextItemType()" + resultText.getChild().get(0).getTextItemType());
+//            printer.print("****");
+//            printer.print("resultText.getChild().get(0).toString()" + resultText.getChild().get(0).toString());
+//            printer.print("resultText.getChild().get(0).getContent()" + resultText.getChild().get(1).getContent());
+//            printer.print("****");
+//
+//            printer.print("resultText.getChild().get(0).getChild().get(0).getTextItemType" + resultText.getChild().get(0).getChild().get(0).getTextItemType());
+//            printer.print("resultText.getChild().get(1).getChild().get(0).size" + resultText.getChild().get(1).getChild().size());
+//
+//        } catch (TextUnsupportedOperationException e) {
+//            e.printStackTrace();
+//        }
+
+
+
+
+
 
     }
 
-
-    private final String DATA_PATTERN = "^[a-zA-Zа-яА-Я\\s]+";
-    String str = "";
-
-    public boolean isDataCorrect (String str) {
-        Pattern pattern = Pattern.compile(DATA_PATTERN);
-        Matcher matcher = pattern.matcher(str);
-        return matcher.matches();
-    }
 }

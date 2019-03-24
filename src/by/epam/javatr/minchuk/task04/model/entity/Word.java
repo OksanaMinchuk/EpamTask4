@@ -2,6 +2,13 @@ package by.epam.javatr.minchuk.task04.model.entity;
 
 import java.util.Objects;
 
+/**
+ * Class {@code Word}
+ *
+ * @autor Oksana Minchuk
+ * @version 1.0 23.03.2019
+ */
+
 public class Word extends TextItem {
 
     private String value;
@@ -20,7 +27,9 @@ public class Word extends TextItem {
      */
     public Word(String value) {
         super(TextItemType.WORD);
-        this.value = value;
+        if (value != null) {
+            this.value = value;
+        }
     }
 
     /**
@@ -30,7 +39,9 @@ public class Word extends TextItem {
      */
     public Word(Word word) {
         super(TextItemType.WORD);
-        this.value = word.value;
+        if (word != null) {
+            this.value = word.value;
+        }
     }
 
     @Override

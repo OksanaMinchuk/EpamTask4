@@ -2,9 +2,15 @@ package by.epam.javatr.minchuk.task04.model.entity;
 
 import java.util.Objects;
 
+/**
+ * Class {@code Lexeme}
+ *
+ * @autor Oksana Minchuk
+ * @version 1.0 23.03.2019
+ */
 public class Lexeme extends TextItem {
 
-    private String value;
+    private String lexemComponent;
 
     /**
      * Default constructor
@@ -16,11 +22,13 @@ public class Lexeme extends TextItem {
     /**
      * Constructor
      *
-     * @param value
+     * @param lexemComponent
      */
-    public Lexeme(String value) {
+    public Lexeme(String lexemComponent) {
         super(TextItemType.LEXEME);
-        this.value = value;
+        if (lexemComponent != null) {
+            this.lexemComponent = lexemComponent;
+        }
     }
 
     /**
@@ -30,12 +38,14 @@ public class Lexeme extends TextItem {
      */
     public Lexeme(Lexeme lexeme) {
         super(TextItemType.LEXEME);
-        this.value = lexeme.value;
+        if (lexeme != null) {
+            this.lexemComponent = lexemComponent;
+        }
     }
 
     @Override
     public String getContent() {
-        return value;
+        return lexemComponent;
     }
 
     @Override
@@ -43,18 +53,11 @@ public class Lexeme extends TextItem {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Lexeme lexeme = (Lexeme) o;
-        return value.equals(lexeme.value);
+        return lexemComponent.equals(lexeme.lexemComponent);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(value);
-    }
-
-    @Override
-    public String toString() {
-        return "Lexeme{" +
-                "value='" + value + '\'' +
-                '}';
+        return Objects.hash(lexemComponent);
     }
 }

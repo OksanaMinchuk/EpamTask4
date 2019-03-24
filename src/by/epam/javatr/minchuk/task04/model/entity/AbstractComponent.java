@@ -5,7 +5,7 @@ import by.epam.javatr.minchuk.task04.model.exception.TextUnsupportedOperationExc
 import java.util.List;
 
 /**
- * Class {@code AbstractComponent}
+ * Class {@code AbstractComponent} is a superclass all other text components.
  *
  * If the object of subclass does not support operations, it can use the standard behavior:
  * the default implementation initializes

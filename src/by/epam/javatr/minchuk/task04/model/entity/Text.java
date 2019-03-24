@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Class {@code Text}
+ *
+ * @autor Oksana Minchuk
+ * @version 1.0 23.03.2019
+ */
 public class Text extends TextItem {
 
     private List<TextItem> paragraphs;
@@ -23,7 +29,9 @@ public class Text extends TextItem {
      */
     public Text(List<TextItem> paragraphs) {
         super(TextItemType.TEXT);
-        this.paragraphs = paragraphs;
+        if (paragraphs != null) {
+            this.paragraphs = paragraphs;
+        }
     }
 
     /**
@@ -33,9 +41,11 @@ public class Text extends TextItem {
      */
     public Text(Text text) {
         super(TextItemType.TEXT);
-        this.paragraphs = new ArrayList<>();
-        for (int i = 0; i < text.paragraphs.size(); i++) {
-            this.paragraphs.add(text.paragraphs.get(i));
+        if (text != null) {
+            this.paragraphs = new ArrayList<>();
+            for (int i = 0; i < text.paragraphs.size(); i++) {
+                this.paragraphs.add(text.paragraphs.get(i));
+            }
         }
     }
 
@@ -58,6 +68,7 @@ public class Text extends TextItem {
     public String getContent() {
         StringBuilder builder = new StringBuilder();
         for (TextItem paragraph : paragraphs) {
+            //builder.append("\t");
             builder.append(paragraph).append("\n");
         }
         builder.delete(builder.length()-1, builder.length());
@@ -79,8 +90,10 @@ public class Text extends TextItem {
 
     @Override
     public String toString() {
-        return "Text{" +
-                "paragraphs=" + paragraphs +
-                '}';
+        StringBuilder builder = new StringBuilder();
+        for (TextItem paragraph : paragraphs) {
+            builder.append(paragraph.getContent()).append("\n");
+        }
+        return builder.toString();
     }
 }
