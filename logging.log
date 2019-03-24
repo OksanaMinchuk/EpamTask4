@@ -1,0 +1,141 @@
+2019-03-25 00:14:58 INFO  root:39 - start text parsing
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     Character ch = 'a';
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     List<Integer> li = new ArrayList<>();
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         for (int i = 1; i < 50; i += 2)
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         li.add(i);
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     List<Integer> li = new ArrayList<>();
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         for (int i = 1; i < 50; i += 2)
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         li.add(Integer.valueOf(i));
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     public static int sumEven(List<Integer> li) {
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         int sum = 0;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         for (Integer i: li)
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         if (i % 2 == 0)
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         sum += i;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         return sum;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     }
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     public static int sumEven(List<Integer> li) {
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         int sum = 0;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         for (Integer i : li)
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         if (i.intValue() % 2 == 0)
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         sum += i.intValue();
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         return sum;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     }
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     import java.util.ArrayList;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     import java.util.List;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     public class Unboxing {
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         public static void main(String[] args) {
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             Integer i = new Integer(-8);
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     // 1. Unboxing through method invocation
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             int absVal = absoluteValue(i);
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             System.out.println("absolute value of " + i + " = " + absVal);
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             List<Double> ld = new ArrayList<>();
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             ld.add(3.1416);
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     // Π is autoboxed through method invocation.
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     // 2. Unboxing through assignment
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             double pi = ld.get(0);
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             System.out.println("pi = " + pi);
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         }
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         public static int absoluteValue(int i) {
+2019-03-25 00:14:58 INFO  root:50 - add code block to text             return (i < 0) ? -i : i;
+2019-03-25 00:14:58 INFO  root:50 - add code block to text         }
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     }
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     absolute value of -8 = 8
+2019-03-25 00:14:58 INFO  root:50 - add code block to text     pi = 3.1416
+2019-03-25 00:14:58 INFO  root:39 - - start paragraph parsing
+2019-03-25 00:14:58 INFO  root:40 -    start sentence parsing
+2019-03-25 00:14:58 INFO  root:53 -    end sentence parsing
+2019-03-25 00:14:58 INFO  root:50 - - end paragraph parsing
+2019-03-25 00:14:58 INFO  root:47 - add paragraph to text
+2019-03-25 00:14:58 INFO  root:56 - end text parsing
