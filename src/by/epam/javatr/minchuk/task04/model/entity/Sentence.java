@@ -88,16 +88,13 @@ public class Sentence extends TextItem {
         return Objects.hash(lexemes);
     }
 
-//    @Override
-//    public String toString() {
-//        StringBuilder builder = new StringBuilder();
-//        for (TextItem lexeme : lexemes) {
-//            builder.append(lexeme.getContent()).append(" ");
-//        }
-//        builder.delete(builder.length() - 1, builder.length());
-//        return builder.toString();
-//        return "Sentence{" +
-//                "lexemes=" + lexemes +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        for (TextItem lexeme : lexemes) {
+            builder.append(lexeme.getContent()).append(" ");
+        }
+        builder.delete(builder.length() - 1, builder.length());
+        return builder.toString();
+    }
 }

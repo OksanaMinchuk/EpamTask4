@@ -16,14 +16,14 @@ public class PrinterCreator {
 
     public static Printable getPrinter(PrinterType printerType) {
         Printable printer = new ConsolePrinter();
-                switch (printerType) {
-                    case FILE:
-                        printer = new FilePrinter();
-                        break;
-                    case LOGGER:
-                        printer = new LoggerPrinter();
-                        break;
-                }
+        switch (printerType) {
+            case FILE:
+                printer = new FilePrinter();
+                break;
+            case LOGGER:
+                printer = new LoggerPrinter();
+                break;
+        }
         return printer;
     }
 }

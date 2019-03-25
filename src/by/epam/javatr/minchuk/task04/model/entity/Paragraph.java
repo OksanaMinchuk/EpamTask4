@@ -68,7 +68,6 @@ public class Paragraph extends TextItem {
     @Override
     public String getContent() {
         StringBuilder builder = new StringBuilder();
-        //builder.append("\t");
         for (TextItem sentence : sentences) {
             builder.append(sentence.getContent()).append(".");
         }

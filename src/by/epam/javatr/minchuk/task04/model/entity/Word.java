@@ -64,8 +64,6 @@ public class Word extends TextItem {
 
     @Override
     public String toString() {
-        return "Word{" +
-                "value='" + value + '\'' +
-                '}';
+        return value;
     }
 }

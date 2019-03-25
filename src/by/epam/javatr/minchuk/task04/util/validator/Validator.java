@@ -6,18 +6,27 @@ import java.util.regex.Pattern;
 public class Validator {
 
     private static final String PARAGRAPH_PATTERN = "^([A-Z]|[-])(.+)([\\w]|[.]|[?!:;])$";
-    //private static final String WORD_PATTERN = "[A-Za-z]";
-    private static final String WORD_PATTERN = "([\\w]+)|(^([\\w])([.?!:;])$)";
+    private static final String WORD_PATTERN = "\\w+";
 
+    /**
+     *
+     * @param paragraph
+     * @return true if paragraph is valid text
+     */
     public static boolean isValidParagraph (String paragraph) {
         Pattern pattern = Pattern.compile(PARAGRAPH_PATTERN);
         Matcher matcher = pattern.matcher(paragraph);
         return matcher.matches();
     }
 
-    public static boolean isWord (String paragraph) {
-        Pattern pattern = Pattern.compile(PARAGRAPH_PATTERN);
-        Matcher matcher = pattern.matcher(paragraph);
+    /**
+     *
+     * @param word
+     * @return true if word is valid
+     */
+    public static boolean isWord (String word) {
+        Pattern pattern = Pattern.compile(WORD_PATTERN);
+        Matcher matcher = pattern.matcher(word);
         return matcher.matches();
     }
 }

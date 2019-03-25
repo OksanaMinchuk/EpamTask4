@@ -63,8 +63,6 @@ public class PunctuationSign extends TextItem {
 
     @Override
     public String toString() {
-        return "PunctuationSign{" +
-                "value='" + value + '\'' +
-                '}';
+        return value;
     }
 }

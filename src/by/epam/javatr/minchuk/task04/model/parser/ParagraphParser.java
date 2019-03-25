@@ -6,9 +6,6 @@ import by.epam.javatr.minchuk.task04.model.exception.TextNullPointerException;
 import by.epam.javatr.minchuk.task04.model.exception.TextUnsupportedOperationException;
 import org.apache.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Class {@code ParagraphParser}
  *
@@ -24,7 +21,7 @@ public class ParagraphParser extends AbstractParser {
         LOGGER = Logger.getRootLogger();
     }
 
-    private static final String PARAGRAPH_SEPARATOR_REGEX = "[\\.\\!\\?]";
+    private static final String PARAGRAPH_SEPARATOR_REGEX = "(?<=[.!?]\\s)";
     private AbstractParser nextParser = new SentenceParser();
 
     /**
@@ -52,5 +49,4 @@ public class ParagraphParser extends AbstractParser {
         }
         throw new TextNullPointerException();
     }
-
 }

@@ -1,14 +1,13 @@
 package by.epam.javatr.minchuk.task04.model.parser;
 
-import by.epam.javatr.minchuk.task04.model.entity.Lexeme;
+import by.epam.javatr.minchuk.task04.model.entity.PunctuationSign;
 import by.epam.javatr.minchuk.task04.model.entity.Sentence;
 import by.epam.javatr.minchuk.task04.model.entity.TextItem;
+import by.epam.javatr.minchuk.task04.model.entity.Word;
 import by.epam.javatr.minchuk.task04.model.exception.TextNullPointerException;
 import by.epam.javatr.minchuk.task04.model.exception.TextUnsupportedOperationException;
+import by.epam.javatr.minchuk.task04.util.validator.Validator;
 import org.apache.log4j.Logger;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Class {@code SentenceParser}
@@ -25,11 +24,10 @@ public class SentenceParser extends AbstractParser {
         LOGGER = Logger.getRootLogger();
     }
 
-    private static final String LEXEMES_SEPARATOR_REGEX = "(?<=[.!?]\\s)";
-    //private AbstractParser nextParser = new LexemeParser();
+    private static final String LEXEMES_SEPARATOR_REGEX = " ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?";
 
     /**
-     * Returns sentence (a container object of lexems, where lexema is character set and punctuation marks)
+     * Returns sentence (a container of words and punctuation signs)
      *
      * @param text
      * @return parseSentense
@@ -39,16 +37,20 @@ public class SentenceParser extends AbstractParser {
         if (text != null) {
             LOGGER.info("   start sentence parsing");
             String[] lexemeString = text.split(LEXEMES_SEPARATOR_REGEX);
-           // List<TextItem> lexemesList = new ArrayList<>();
 
             TextItem parseSentense = new Sentence();
             for (int i = 0; i < lexemeString.length; i++) {
                 try {
-                    parseSentense.addItem(new Lexeme(lexemeString[i]));
+                    if (Validator.isWord(lexemeString[i])) {
+                        parseSentense.addItem(new Word(lexemeString[i]));
+                        LOGGER.info("   add word " + lexemeString[i]);
+                    } else {
+                        parseSentense.addItem(new PunctuationSign(lexemeString[i]));
+                        LOGGER.info("   add punctuation sign " + lexemeString[i]);
+                    }
                 } catch (TextUnsupportedOperationException e) {
                     e.printStackTrace();
                 }
-               // lexemesList.add(nextParser.parse(lexemeString[i]));
             }
             LOGGER.info("   end sentence parsing");
             return parseSentense;
