@@ -8,7 +8,6 @@ import by.epam.javatr.minchuk.task04.model.exception.TextUnsupportedOperationExc
 import by.epam.javatr.minchuk.task04.util.validator.Validator;
 import org.apache.log4j.Logger;
 
-
 /**
  * Class {@code TextParser}
  *

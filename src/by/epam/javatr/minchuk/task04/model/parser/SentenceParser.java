@@ -23,7 +23,6 @@ public class SentenceParser extends AbstractParser {
     static {
         LOGGER = Logger.getRootLogger();
     }
-
     private static final String LEXEMES_SEPARATOR_REGEX = " ?(?<!\\G)((?<=[^\\p{Punct}])(?=\\p{Punct})|\\b) ?";
 
     /**
@@ -41,7 +40,7 @@ public class SentenceParser extends AbstractParser {
             TextItem parseSentense = new Sentence();
             for (int i = 0; i < lexemeString.length; i++) {
                 try {
-                    if (Validator.isWord(lexemeString[i])) {
+                    if (Validator.isValidWord(lexemeString[i])) {
                         parseSentense.addItem(new Word(lexemeString[i]));
                         LOGGER.info("   add word " + lexemeString[i]);
                     } else {

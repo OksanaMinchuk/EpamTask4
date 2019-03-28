@@ -8,7 +8,7 @@ public class FilePrinter implements Printable {
 
     @Override
     public void print(Object ob) {
-        try (FileWriter fileWriter = new FileWriter(file)) {
+        try (FileWriter fileWriter = new FileWriter(file, true)) {
             fileWriter.write(ob.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();

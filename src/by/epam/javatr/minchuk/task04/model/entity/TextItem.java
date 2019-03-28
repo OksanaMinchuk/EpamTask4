@@ -2,7 +2,7 @@ package by.epam.javatr.minchuk.task04.model.entity;
 
 /**
  * Class {@code TextItem} is a superclass for other text components:
- * TEXT, PARAGRAPH, SENTENCE, LEXEME, WORD, CODE.
+ * TEXT, PARAGRAPH, SENTENCE, WORD, PUNCTUATION SIGN, CODE.
  *
  * @autor Oksana Minchuk
  * @version 1.0 23.03.2019
@@ -11,7 +11,7 @@ package by.epam.javatr.minchuk.task04.model.entity;
 public class TextItem extends AbstractComponent {
 
     public enum TextItemType {
-        TEXT, PARAGRAPH, SENTENCE, LEXEME, WORD, CODE, PUNKTUATION
+        TEXT, PARAGRAPH, SENTENCE, WORD, CODE, PUNKTUATION
     }
 
     private TextItemType textItemType;
@@ -36,14 +36,7 @@ public class TextItem extends AbstractComponent {
     }
 
     @Override
-    public String getContent() {
-        return textItemType.toString();
-    }
-
-    @Override
     public String toString() {
-        return "TextItem{" +
-                "textItemType=" + textItemType +
-                '}';
+        return textItemType.toString();
     }
 }

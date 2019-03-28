@@ -66,16 +66,6 @@ public class Paragraph extends TextItem {
     }
 
     @Override
-    public String getContent() {
-        StringBuilder builder = new StringBuilder();
-        for (TextItem sentence : sentences) {
-            builder.append(sentence.getContent()).append(".");
-        }
-        builder.delete(builder.length() - 1, builder.length());
-        return builder.toString();
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -88,16 +78,12 @@ public class Paragraph extends TextItem {
         return Objects.hash(sentences);
     }
 
-//    @Override
-//    public String toString() {
-//        StringBuilder builder = new StringBuilder();
-//        for (TextItem sentence : sentences) {
-//            builder.append(sentence.getContent()).append(".");
-//        }
-//        builder.delete(builder.length() - 1, builder.length());
-//        return builder.toString();
-//        return "Paragraph{" +
-//                "sentences=" + sentences +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        for (TextItem sentence : sentences) {
+            builder.append(sentence.toString());
+        }
+        return builder.toString();
+    }
 }

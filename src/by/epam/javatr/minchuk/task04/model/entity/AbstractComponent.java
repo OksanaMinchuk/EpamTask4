@@ -29,6 +29,6 @@ public abstract class AbstractComponent {
         throw new TextUnsupportedOperationException();
     }
 
-    public abstract String getContent();
+    public abstract String toString();
 
 }

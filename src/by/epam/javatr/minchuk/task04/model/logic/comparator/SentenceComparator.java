@@ -8,6 +8,6 @@ public class SentenceComparator implements Comparator<TextItem> {
 
     @Override
     public int compare(TextItem textItem, TextItem t1) {
-        return textItem.getContent().length() - t1.getContent().length();
+        return textItem.toString().length() - t1.toString().length();
     }
 }

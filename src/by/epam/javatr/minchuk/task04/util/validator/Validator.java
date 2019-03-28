@@ -3,6 +3,13 @@ package by.epam.javatr.minchuk.task04.util.validator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Class {@code Validator}
+ *
+ * @autor Oksana Minchuk
+ * @version 1.0 23.03.2019
+ */
+
 public class Validator {
 
     private static final String PARAGRAPH_PATTERN = "^([A-Z]|[-])(.+)([\\w]|[.]|[?!:;])$";
@@ -24,7 +31,7 @@ public class Validator {
      * @param word
      * @return true if word is valid
      */
-    public static boolean isWord (String word) {
+    public static boolean isValidWord (String word) {
         Pattern pattern = Pattern.compile(WORD_PATTERN);
         Matcher matcher = pattern.matcher(word);
         return matcher.matches();

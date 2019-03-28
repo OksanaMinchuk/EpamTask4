@@ -14,13 +14,10 @@ public class ChainParser {
         AbstractParser textParser = new TextParser();
         AbstractParser paragraphParser = new ParagraphParser();
         AbstractParser sentenceParser = new SentenceParser();
-        //AbstractParser lexemeParser = new LexemeParser();
 
         textParser.setNextParser(paragraphParser);
         paragraphParser.setNextParser(sentenceParser);
-        //sentenceParser.setNextParser(lexemeParser);
 
         return textParser;
     }
-
 }

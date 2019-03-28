@@ -65,17 +65,6 @@ public class Text extends TextItem {
     }
 
     @Override
-    public String getContent() {
-        StringBuilder builder = new StringBuilder();
-        for (TextItem paragraph : paragraphs) {
-            //builder.append("\t");
-            builder.append(paragraph).append("\n");
-        }
-        builder.delete(builder.length()-1, builder.length());
-        return builder.toString();
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -92,8 +81,9 @@ public class Text extends TextItem {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         for (TextItem paragraph : paragraphs) {
-            builder.append(paragraph.getContent()).append("\n");
+            builder.append(paragraph.toString()).append("\n");
         }
+        builder.delete(builder.length()-1, builder.length());
         return builder.toString();
     }
 }

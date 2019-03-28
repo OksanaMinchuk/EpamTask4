@@ -9,6 +9,8 @@ import by.epam.javatr.minchuk.task04.model.logic.creator.SentencesCreator;
 import java.util.List;
 
 public class SentencesSorter {
+
+
     public static List<TextItem> sortIncrease(TextItem resultText) {
         List<TextItem> sentences = null;
         try {
@@ -33,5 +35,13 @@ public class SentencesSorter {
             e.printStackTrace();
         }
         return sentences;
+    }
+
+    public static String toStringList(List<TextItem> sentences) {
+        String SortedSentencesString = "";
+        for (int i = 0; i < sentences.size(); i++) {
+            SortedSentencesString += sentences.get(i).toString() + "\n";
+        }
+        return SortedSentencesString;
     }
 }

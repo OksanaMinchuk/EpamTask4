@@ -1,605 +1,606 @@
-2019-03-26 00:35:32 INFO  root:39 - start text parsing
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Autoboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word Unboxing
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Autoboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word automatic
-2019-03-26 00:35:32 INFO  root:46 -    add word conversion
-2019-03-26 00:35:32 INFO  root:46 -    add word that
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word Java
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word makes
-2019-03-26 00:35:32 INFO  root:46 -    add word between
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:46 -    add word types
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word their
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word wrapper
-2019-03-26 00:35:32 INFO  root:46 -    add word classes
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word For
-2019-03-26 00:35:32 INFO  root:46 -    add word example
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word converting
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word int
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word double
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word Double
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word so
-2019-03-26 00:35:32 INFO  root:46 -    add word on
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word If
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word conversion
-2019-03-26 00:35:32 INFO  root:46 -    add word goes
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word other
-2019-03-26 00:35:32 INFO  root:46 -    add word way
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word this
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:46 -    add word called
-2019-03-26 00:35:32 INFO  root:46 -    add word unboxing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Here
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word simplest
-2019-03-26 00:35:32 INFO  root:46 -    add word example
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word autoboxing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     Character ch = 'a';
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word rest
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word examples
-2019-03-26 00:35:32 INFO  root:46 -    add word in
-2019-03-26 00:35:32 INFO  root:46 -    add word this
-2019-03-26 00:35:32 INFO  root:46 -    add word section
-2019-03-26 00:35:32 INFO  root:46 -    add word use
-2019-03-26 00:35:32 INFO  root:46 -    add word generics
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word If
-2019-03-26 00:35:32 INFO  root:46 -    add word you
-2019-03-26 00:35:32 INFO  root:46 -    add word are
-2019-03-26 00:35:32 INFO  root:46 -    add word not
-2019-03-26 00:35:32 INFO  root:46 -    add word yet
-2019-03-26 00:35:32 INFO  root:46 -    add word familiar
-2019-03-26 00:35:32 INFO  root:46 -    add word with
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word syntax
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word generics
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word see
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word Generics
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:46 -    add word Updated
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word lesson
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Consider
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word following
-2019-03-26 00:35:32 INFO  root:46 -    add word code
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     List<Integer> li = new ArrayList<>();
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         for (int i = 1; i < 50; i += 2)
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         li.add(i);
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Although
-2019-03-26 00:35:32 INFO  root:46 -    add word you
-2019-03-26 00:35:32 INFO  root:46 -    add word add
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word int
-2019-03-26 00:35:32 INFO  root:46 -    add word values
-2019-03-26 00:35:32 INFO  root:46 -    add word as
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:46 -    add word types
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word rather
-2019-03-26 00:35:32 INFO  root:46 -    add word than
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:46 -    add word objects
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word li
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word code
-2019-03-26 00:35:32 INFO  root:46 -    add word compiles
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Because
-2019-03-26 00:35:32 INFO  root:46 -    add word li
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word list
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:46 -    add word objects
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word not
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word list
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word int
-2019-03-26 00:35:32 INFO  root:46 -    add word values
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word you
-2019-03-26 00:35:32 INFO  root:46 -    add word may
-2019-03-26 00:35:32 INFO  root:46 -    add word wonder
-2019-03-26 00:35:32 INFO  root:46 -    add word why
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word Java
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word does
-2019-03-26 00:35:32 INFO  root:46 -    add word not
-2019-03-26 00:35:32 INFO  root:46 -    add word issue
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word compile
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign -
-2019-03-26 00:35:32 INFO  root:46 -    add word time
-2019-03-26 00:35:32 INFO  root:46 -    add word error
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word does
-2019-03-26 00:35:32 INFO  root:46 -    add word not
-2019-03-26 00:35:32 INFO  root:46 -    add word generate
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word error
-2019-03-26 00:35:32 INFO  root:46 -    add word because
-2019-03-26 00:35:32 INFO  root:46 -    add word it
-2019-03-26 00:35:32 INFO  root:46 -    add word creates
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word from
-2019-03-26 00:35:32 INFO  root:46 -    add word i
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word adds
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word li
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Thus
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word converts
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word previous
-2019-03-26 00:35:32 INFO  root:46 -    add word code
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word following
-2019-03-26 00:35:32 INFO  root:46 -    add word at
-2019-03-26 00:35:32 INFO  root:46 -    add word runtime
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     List<Integer> li = new ArrayList<>();
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         for (int i = 1; i < 50; i += 2)
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         li.add(Integer.valueOf(i));
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Converting
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:46 -    add word value
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word int
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word for
-2019-03-26 00:35:32 INFO  root:46 -    add word example
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word into
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word wrapper
-2019-03-26 00:35:32 INFO  root:46 -    add word class
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:46 -    add word called
-2019-03-26 00:35:32 INFO  root:46 -    add word autoboxing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word Java
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word applies
-2019-03-26 00:35:32 INFO  root:46 -    add word autoboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word when
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:46 -    add word value
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign -
-2019-03-26 00:35:32 INFO  root:46 -    add word passed
-2019-03-26 00:35:32 INFO  root:46 -    add word as
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word parameter
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word method
-2019-03-26 00:35:32 INFO  root:46 -    add word that
-2019-03-26 00:35:32 INFO  root:46 -    add word expects
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word wrapper
-2019-03-26 00:35:32 INFO  root:46 -    add word class
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ;
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign -
-2019-03-26 00:35:32 INFO  root:46 -    add word assigned
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word variable
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word wrapper
-2019-03-26 00:35:32 INFO  root:46 -    add word class
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign .
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Consider
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word following
-2019-03-26 00:35:32 INFO  root:46 -    add word method
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     public static int sumEven(List<Integer> li) {
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         int sum = 0;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         for (Integer i: li)
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         if (i % 2 == 0)
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         sum += i;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         return sum;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     }
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Because
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word remainder
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign %
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word unary
-2019-03-26 00:35:32 INFO  root:46 -    add word plus
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign +=
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word operators
-2019-03-26 00:35:32 INFO  root:46 -    add word do
-2019-03-26 00:35:32 INFO  root:46 -    add word not
-2019-03-26 00:35:32 INFO  root:46 -    add word apply
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:46 -    add word objects
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word you
-2019-03-26 00:35:32 INFO  root:46 -    add word may
-2019-03-26 00:35:32 INFO  root:46 -    add word wonder
-2019-03-26 00:35:32 INFO  root:46 -    add word why
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word Java
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word compiles
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word method
-2019-03-26 00:35:32 INFO  root:46 -    add word without
-2019-03-26 00:35:32 INFO  root:46 -    add word issuing
-2019-03-26 00:35:32 INFO  root:46 -    add word any
-2019-03-26 00:35:32 INFO  root:46 -    add word errors
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word does
-2019-03-26 00:35:32 INFO  root:46 -    add word not
-2019-03-26 00:35:32 INFO  root:46 -    add word generate
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word error
-2019-03-26 00:35:32 INFO  root:46 -    add word because
-2019-03-26 00:35:32 INFO  root:46 -    add word it
-2019-03-26 00:35:32 INFO  root:46 -    add word invokes
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word intValue
-2019-03-26 00:35:32 INFO  root:46 -    add word method
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word convert
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word int
-2019-03-26 00:35:32 INFO  root:46 -    add word at
-2019-03-26 00:35:32 INFO  root:46 -    add word runtime
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     public static int sumEven(List<Integer> li) {
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         int sum = 0;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         for (Integer i : li)
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         if (i.intValue() % 2 == 0)
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         sum += i.intValue();
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         return sum;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     }
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Converting
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word wrapper
-2019-03-26 00:35:32 INFO  root:46 -    add word type
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:46 -    add word Integer
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word its
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign (
-2019-03-26 00:35:32 INFO  root:46 -    add word int
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign )
-2019-03-26 00:35:32 INFO  root:46 -    add word value
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:46 -    add word called
-2019-03-26 00:35:32 INFO  root:46 -    add word unboxing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign . 
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word Java
-2019-03-26 00:35:32 INFO  root:46 -    add word compiler
-2019-03-26 00:35:32 INFO  root:46 -    add word applies
-2019-03-26 00:35:32 INFO  root:46 -    add word unboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word when
-2019-03-26 00:35:32 INFO  root:46 -    add word an
-2019-03-26 00:35:32 INFO  root:46 -    add word object
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word wrapper
-2019-03-26 00:35:32 INFO  root:46 -    add word class
-2019-03-26 00:35:32 INFO  root:46 -    add word is
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign -
-2019-03-26 00:35:32 INFO  root:46 -    add word passed
-2019-03-26 00:35:32 INFO  root:46 -    add word as
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word parameter
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word method
-2019-03-26 00:35:32 INFO  root:46 -    add word that
-2019-03-26 00:35:32 INFO  root:46 -    add word expects
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word value
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:46 -    add word type
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ;
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign -
-2019-03-26 00:35:32 INFO  root:46 -    add word assigned
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word a
-2019-03-26 00:35:32 INFO  root:46 -    add word variable
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word corresponding
-2019-03-26 00:35:32 INFO  root:46 -    add word primitive
-2019-03-26 00:35:32 INFO  root:46 -    add word type
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign .
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word Unboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word example
-2019-03-26 00:35:32 INFO  root:46 -    add word shows
-2019-03-26 00:35:32 INFO  root:46 -    add word how
-2019-03-26 00:35:32 INFO  root:46 -    add word this
-2019-03-26 00:35:32 INFO  root:46 -    add word works
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     import java.util.ArrayList;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     import java.util.List;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     public class Unboxing {
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         public static void main(String[] args) {
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             Integer i = new Integer(-8);
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     // 1. Unboxing through method invocation
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             int absVal = absoluteValue(i);
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             System.out.println("absolute value of " + i + " = " + absVal);
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             List<Double> ld = new ArrayList<>();
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             ld.add(3.1416);
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     // Π is autoboxed through method invocation.
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     // 2. Unboxing through assignment
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             double pi = ld.get(0);
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             System.out.println("pi = " + pi);
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         }
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         public static int absoluteValue(int i) {
-2019-03-26 00:35:32 INFO  root:50 - add code block to text             return (i < 0) ? -i : i;
-2019-03-26 00:35:32 INFO  root:50 - add code block to text         }
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     }
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word The
-2019-03-26 00:35:32 INFO  root:46 -    add word program
-2019-03-26 00:35:32 INFO  root:46 -    add word prints
-2019-03-26 00:35:32 INFO  root:46 -    add word the
-2019-03-26 00:35:32 INFO  root:46 -    add word following
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign :
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     absolute value of -8 = 8
-2019-03-26 00:35:32 INFO  root:50 - add code block to text     pi = 3.1416
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Autoboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word unboxing
-2019-03-26 00:35:32 INFO  root:46 -    add word lets
-2019-03-26 00:35:32 INFO  root:46 -    add word developers
-2019-03-26 00:35:32 INFO  root:46 -    add word write
-2019-03-26 00:35:32 INFO  root:46 -    add word cleaner
-2019-03-26 00:35:32 INFO  root:46 -    add word code
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word making
-2019-03-26 00:35:32 INFO  root:46 -    add word it
-2019-03-26 00:35:32 INFO  root:46 -    add word easier
-2019-03-26 00:35:32 INFO  root:46 -    add word to
-2019-03-26 00:35:32 INFO  root:46 -    add word read
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign .
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:36 - - start paragraph parsing
-2019-03-26 00:35:32 INFO  root:38 -    start sentence parsing
-2019-03-26 00:35:32 INFO  root:46 -    add word Some
-2019-03-26 00:35:32 INFO  root:46 -    add word examples
-2019-03-26 00:35:32 INFO  root:46 -    add word of
-2019-03-26 00:35:32 INFO  root:46 -    add word palindromic
-2019-03-26 00:35:32 INFO  root:46 -    add word words
-2019-03-26 00:35:32 INFO  root:46 -    add word are
-2019-03-26 00:35:32 INFO  root:46 -    add word redivider
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word deified
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word radar
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word level
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign , 
-2019-03-26 00:35:32 INFO  root:46 -    add word kayak
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word reviver
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word racecar
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word redder
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word madam
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign ,
-2019-03-26 00:35:32 INFO  root:46 -    add word and
-2019-03-26 00:35:32 INFO  root:46 -    add word refer
-2019-03-26 00:35:32 INFO  root:49 -    add punctuation sign .
-2019-03-26 00:35:32 INFO  root:55 -    end sentence parsing
-2019-03-26 00:35:32 INFO  root:47 - - end paragraph parsing
-2019-03-26 00:35:32 INFO  root:47 - add paragraph to text
-2019-03-26 00:35:32 INFO  root:56 - end text parsing
-2019-03-26 00:35:32 INFO  root:11 - Autoboxing and Unboxing
-Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes . .For example , converting an int to an Integer , a double to a Double , and so on . .If the conversion goes the other way , this is called unboxing . .Here is the simplest example of autoboxing :
+2019-03-28 23:20:34 INFO  root:38 - start text parsing
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Autoboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word Unboxing
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Autoboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word automatic
+2019-03-28 23:20:34 INFO  root:45 -    add word conversion
+2019-03-28 23:20:34 INFO  root:45 -    add word that
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word Java
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word makes
+2019-03-28 23:20:34 INFO  root:45 -    add word between
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:45 -    add word types
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word their
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word wrapper
+2019-03-28 23:20:34 INFO  root:45 -    add word classes
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word For
+2019-03-28 23:20:34 INFO  root:45 -    add word example
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word converting
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word int
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word double
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word Double
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word so
+2019-03-28 23:20:34 INFO  root:45 -    add word on
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word If
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word conversion
+2019-03-28 23:20:34 INFO  root:45 -    add word goes
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word other
+2019-03-28 23:20:34 INFO  root:45 -    add word way
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word this
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:45 -    add word called
+2019-03-28 23:20:34 INFO  root:45 -    add word unboxing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Here
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word simplest
+2019-03-28 23:20:34 INFO  root:45 -    add word example
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word autoboxing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     Character ch = 'a';
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word rest
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word examples
+2019-03-28 23:20:34 INFO  root:45 -    add word in
+2019-03-28 23:20:34 INFO  root:45 -    add word this
+2019-03-28 23:20:34 INFO  root:45 -    add word section
+2019-03-28 23:20:34 INFO  root:45 -    add word use
+2019-03-28 23:20:34 INFO  root:45 -    add word generics
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word If
+2019-03-28 23:20:34 INFO  root:45 -    add word you
+2019-03-28 23:20:34 INFO  root:45 -    add word are
+2019-03-28 23:20:34 INFO  root:45 -    add word not
+2019-03-28 23:20:34 INFO  root:45 -    add word yet
+2019-03-28 23:20:34 INFO  root:45 -    add word familiar
+2019-03-28 23:20:34 INFO  root:45 -    add word with
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word syntax
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word generics
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word see
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word Generics
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:45 -    add word Updated
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word lesson
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Consider
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word following
+2019-03-28 23:20:34 INFO  root:45 -    add word code
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     List<Integer> li = new ArrayList<>();
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         for (int i = 1; i < 50; i += 2)
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         li.add(i);
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Although
+2019-03-28 23:20:34 INFO  root:45 -    add word you
+2019-03-28 23:20:34 INFO  root:45 -    add word add
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word int
+2019-03-28 23:20:34 INFO  root:45 -    add word values
+2019-03-28 23:20:34 INFO  root:45 -    add word as
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:45 -    add word types
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word rather
+2019-03-28 23:20:34 INFO  root:45 -    add word than
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:45 -    add word objects
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word li
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word code
+2019-03-28 23:20:34 INFO  root:45 -    add word compiles
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Because
+2019-03-28 23:20:34 INFO  root:45 -    add word li
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word list
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:45 -    add word objects
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word not
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word list
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word int
+2019-03-28 23:20:34 INFO  root:45 -    add word values
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word you
+2019-03-28 23:20:34 INFO  root:45 -    add word may
+2019-03-28 23:20:34 INFO  root:45 -    add word wonder
+2019-03-28 23:20:34 INFO  root:45 -    add word why
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word Java
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word does
+2019-03-28 23:20:34 INFO  root:45 -    add word not
+2019-03-28 23:20:34 INFO  root:45 -    add word issue
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word compile
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign -
+2019-03-28 23:20:34 INFO  root:45 -    add word time
+2019-03-28 23:20:34 INFO  root:45 -    add word error
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word does
+2019-03-28 23:20:34 INFO  root:45 -    add word not
+2019-03-28 23:20:34 INFO  root:45 -    add word generate
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word error
+2019-03-28 23:20:34 INFO  root:45 -    add word because
+2019-03-28 23:20:34 INFO  root:45 -    add word it
+2019-03-28 23:20:34 INFO  root:45 -    add word creates
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word from
+2019-03-28 23:20:34 INFO  root:45 -    add word i
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word adds
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word li
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Thus
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word converts
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word previous
+2019-03-28 23:20:34 INFO  root:45 -    add word code
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word following
+2019-03-28 23:20:34 INFO  root:45 -    add word at
+2019-03-28 23:20:34 INFO  root:45 -    add word runtime
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     List<Integer> li = new ArrayList<>();
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         for (int i = 1; i < 50; i += 2)
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         li.add(Integer.valueOf(i));
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Converting
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:45 -    add word value
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word int
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word for
+2019-03-28 23:20:34 INFO  root:45 -    add word example
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word into
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word wrapper
+2019-03-28 23:20:34 INFO  root:45 -    add word class
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:45 -    add word called
+2019-03-28 23:20:34 INFO  root:45 -    add word autoboxing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word Java
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word applies
+2019-03-28 23:20:34 INFO  root:45 -    add word autoboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word when
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:45 -    add word value
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign -
+2019-03-28 23:20:34 INFO  root:45 -    add word passed
+2019-03-28 23:20:34 INFO  root:45 -    add word as
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word parameter
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word method
+2019-03-28 23:20:34 INFO  root:45 -    add word that
+2019-03-28 23:20:34 INFO  root:45 -    add word expects
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word wrapper
+2019-03-28 23:20:34 INFO  root:45 -    add word class
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ;
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign -
+2019-03-28 23:20:34 INFO  root:45 -    add word assigned
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word variable
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word wrapper
+2019-03-28 23:20:34 INFO  root:45 -    add word class
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign .
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Consider
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word following
+2019-03-28 23:20:34 INFO  root:45 -    add word method
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     public static int sumEven(List<Integer> li) {
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         int sum = 0;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         for (Integer i: li)
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         if (i % 2 == 0)
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         sum += i;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         return sum;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     }
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Because
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word remainder
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign %
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word unary
+2019-03-28 23:20:34 INFO  root:45 -    add word plus
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign +=
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word operators
+2019-03-28 23:20:34 INFO  root:45 -    add word do
+2019-03-28 23:20:34 INFO  root:45 -    add word not
+2019-03-28 23:20:34 INFO  root:45 -    add word apply
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:45 -    add word objects
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word you
+2019-03-28 23:20:34 INFO  root:45 -    add word may
+2019-03-28 23:20:34 INFO  root:45 -    add word wonder
+2019-03-28 23:20:34 INFO  root:45 -    add word why
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word Java
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word compiles
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word method
+2019-03-28 23:20:34 INFO  root:45 -    add word without
+2019-03-28 23:20:34 INFO  root:45 -    add word issuing
+2019-03-28 23:20:34 INFO  root:45 -    add word any
+2019-03-28 23:20:34 INFO  root:45 -    add word errors
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word does
+2019-03-28 23:20:34 INFO  root:45 -    add word not
+2019-03-28 23:20:34 INFO  root:45 -    add word generate
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word error
+2019-03-28 23:20:34 INFO  root:45 -    add word because
+2019-03-28 23:20:34 INFO  root:45 -    add word it
+2019-03-28 23:20:34 INFO  root:45 -    add word invokes
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word intValue
+2019-03-28 23:20:34 INFO  root:45 -    add word method
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word convert
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word int
+2019-03-28 23:20:34 INFO  root:45 -    add word at
+2019-03-28 23:20:34 INFO  root:45 -    add word runtime
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     public static int sumEven(List<Integer> li) {
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         int sum = 0;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         for (Integer i : li)
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         if (i.intValue() % 2 == 0)
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         sum += i.intValue();
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         return sum;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     }
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Converting
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word wrapper
+2019-03-28 23:20:34 INFO  root:45 -    add word type
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:45 -    add word Integer
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word its
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign (
+2019-03-28 23:20:34 INFO  root:45 -    add word int
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign )
+2019-03-28 23:20:34 INFO  root:45 -    add word value
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:45 -    add word called
+2019-03-28 23:20:34 INFO  root:45 -    add word unboxing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign . 
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word Java
+2019-03-28 23:20:34 INFO  root:45 -    add word compiler
+2019-03-28 23:20:34 INFO  root:45 -    add word applies
+2019-03-28 23:20:34 INFO  root:45 -    add word unboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word when
+2019-03-28 23:20:34 INFO  root:45 -    add word an
+2019-03-28 23:20:34 INFO  root:45 -    add word object
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word wrapper
+2019-03-28 23:20:34 INFO  root:45 -    add word class
+2019-03-28 23:20:34 INFO  root:45 -    add word is
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign -
+2019-03-28 23:20:34 INFO  root:45 -    add word passed
+2019-03-28 23:20:34 INFO  root:45 -    add word as
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word parameter
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word method
+2019-03-28 23:20:34 INFO  root:45 -    add word that
+2019-03-28 23:20:34 INFO  root:45 -    add word expects
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word value
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:45 -    add word type
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ;
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign -
+2019-03-28 23:20:34 INFO  root:45 -    add word assigned
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word a
+2019-03-28 23:20:34 INFO  root:45 -    add word variable
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word corresponding
+2019-03-28 23:20:34 INFO  root:45 -    add word primitive
+2019-03-28 23:20:34 INFO  root:45 -    add word type
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign .
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word Unboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word example
+2019-03-28 23:20:34 INFO  root:45 -    add word shows
+2019-03-28 23:20:34 INFO  root:45 -    add word how
+2019-03-28 23:20:34 INFO  root:45 -    add word this
+2019-03-28 23:20:34 INFO  root:45 -    add word works
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     import java.util.ArrayList;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     import java.util.List;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     public class Unboxing {
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         public static void main(String[] args) {
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             Integer i = new Integer(-8);
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     // 1. Unboxing through method invocation
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             int absVal = absoluteValue(i);
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             System.out.println("absolute value of " + i + " = " + absVal);
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             List<Double> ld = new ArrayList<>();
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             ld.add(3.1416);
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     // Π is autoboxed through method invocation.
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     // 2. Unboxing through assignment
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             double pi = ld.get(0);
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             System.out.println("pi = " + pi);
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         }
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         public static int absoluteValue(int i) {
+2019-03-28 23:20:34 INFO  root:49 - add code block to text             return (i < 0) ? -i : i;
+2019-03-28 23:20:34 INFO  root:49 - add code block to text         }
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     }
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word The
+2019-03-28 23:20:34 INFO  root:45 -    add word program
+2019-03-28 23:20:34 INFO  root:45 -    add word prints
+2019-03-28 23:20:34 INFO  root:45 -    add word the
+2019-03-28 23:20:34 INFO  root:45 -    add word following
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign :
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     absolute value of -8 = 8
+2019-03-28 23:20:34 INFO  root:49 - add code block to text     pi = 3.1416
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Autoboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word unboxing
+2019-03-28 23:20:34 INFO  root:45 -    add word lets
+2019-03-28 23:20:34 INFO  root:45 -    add word developers
+2019-03-28 23:20:34 INFO  root:45 -    add word write
+2019-03-28 23:20:34 INFO  root:45 -    add word cleaner
+2019-03-28 23:20:34 INFO  root:45 -    add word code
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word making
+2019-03-28 23:20:34 INFO  root:45 -    add word it
+2019-03-28 23:20:34 INFO  root:45 -    add word easier
+2019-03-28 23:20:34 INFO  root:45 -    add word to
+2019-03-28 23:20:34 INFO  root:45 -    add word read
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign .
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:36 - - start paragraph parsing
+2019-03-28 23:20:34 INFO  root:37 -    start sentence parsing
+2019-03-28 23:20:34 INFO  root:45 -    add word Some
+2019-03-28 23:20:34 INFO  root:45 -    add word examples
+2019-03-28 23:20:34 INFO  root:45 -    add word of
+2019-03-28 23:20:34 INFO  root:45 -    add word palindromic
+2019-03-28 23:20:34 INFO  root:45 -    add word words
+2019-03-28 23:20:34 INFO  root:45 -    add word are
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign 
+2019-03-28 23:20:34 INFO  root:45 -    add word deified
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word radar
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word redivider
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word level
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign , 
+2019-03-28 23:20:34 INFO  root:45 -    add word kayak
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word reviver
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word racecar
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word redder
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word madam
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign ,
+2019-03-28 23:20:34 INFO  root:45 -    add word and
+2019-03-28 23:20:34 INFO  root:45 -    add word refer
+2019-03-28 23:20:34 INFO  root:48 -    add punctuation sign .
+2019-03-28 23:20:34 INFO  root:54 -    end sentence parsing
+2019-03-28 23:20:34 INFO  root:47 - - end paragraph parsing
+2019-03-28 23:20:34 INFO  root:46 - add paragraph to text
+2019-03-28 23:20:34 INFO  root:55 - end text parsing
+2019-03-28 23:20:34 INFO  root:11 - Autoboxing and Unboxing 
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes .  For example , converting an int to an Integer , a double to a Double , and so on .  If the conversion goes the other way , this is called unboxing .  Here is the simplest example of autoboxing : 
     Character ch = 'a';
-The rest of the examples in this section use generics . .If you are not yet familiar with the syntax of generics , see the Generics ( Updated ) lesson . .Consider the following code :
+The rest of the examples in this section use generics .  If you are not yet familiar with the syntax of generics , see the Generics ( Updated ) lesson .  Consider the following code : 
     List<Integer> li = new ArrayList<>();
         for (int i = 1; i < 50; i += 2)
         li.add(i);
-Although you add the int values as primitive types , rather than Integer objects , to li , the code compiles . .Because li is a list of Integer objects , not a list of int values , you may wonder why the Java compiler does not issue a compile - time error . .The compiler does not generate an error because it creates an Integer object from i and adds the object to li . .Thus , the compiler converts the previous code to the following at runtime :
+Although you add the int values as primitive types , rather than Integer objects , to li , the code compiles .  Because li is a list of Integer objects , not a list of int values , you may wonder why the Java compiler does not issue a compile - time error .  The compiler does not generate an error because it creates an Integer object from i and adds the object to li .  Thus , the compiler converts the previous code to the following at runtime : 
     List<Integer> li = new ArrayList<>();
         for (int i = 1; i < 50; i += 2)
         li.add(Integer.valueOf(i));
-Converting a primitive value ( an int , for example ) into an object of the corresponding wrapper class ( Integer ) is called autoboxing . .The Java compiler applies autoboxing when a primitive value is :
-- passed as a parameter to a method that expects an object of the corresponding wrapper class ;
-- assigned to a variable of the corresponding wrapper class .
-Consider the following method :
+Converting a primitive value ( an int , for example ) into an object of the corresponding wrapper class ( Integer ) is called autoboxing .  The Java compiler applies autoboxing when a primitive value is : 
+- passed as a parameter to a method that expects an object of the corresponding wrapper class ; 
+- assigned to a variable of the corresponding wrapper class . 
+Consider the following method : 
     public static int sumEven(List<Integer> li) {
         int sum = 0;
         for (Integer i: li)
@@ -607,7 +608,7 @@ Consider the following method :
         sum += i;
         return sum;
     }
-Because the remainder ( % ) and unary plus ( += ) operators do not apply to Integer objects , you may wonder why the Java compiler compiles the method without issuing any errors . .The compiler does not generate an error because it invokes the intValue method to convert an Integer to an int at runtime :
+Because the remainder ( % ) and unary plus ( += ) operators do not apply to Integer objects , you may wonder why the Java compiler compiles the method without issuing any errors .  The compiler does not generate an error because it invokes the intValue method to convert an Integer to an int at runtime : 
     public static int sumEven(List<Integer> li) {
         int sum = 0;
         for (Integer i : li)
@@ -615,10 +616,10 @@ Because the remainder ( % ) and unary plus ( += ) operators do not apply to Inte
         sum += i.intValue();
         return sum;
     }
-Converting an object of a wrapper type ( Integer ) to its corresponding primitive ( int ) value is called unboxing . .The Java compiler applies unboxing when an object of a wrapper class is :
-- passed as a parameter to a method that expects a value of the corresponding primitive type ;
-- assigned to a variable of the corresponding primitive type .
-The Unboxing example shows how this works :
+Converting an object of a wrapper type ( Integer ) to its corresponding primitive ( int ) value is called unboxing .  The Java compiler applies unboxing when an object of a wrapper class is : 
+- passed as a parameter to a method that expects a value of the corresponding primitive type ; 
+- assigned to a variable of the corresponding primitive type . 
+The Unboxing example shows how this works : 
     import java.util.ArrayList;
     import java.util.List;
     public class Unboxing {
@@ -638,13 +639,68 @@ The Unboxing example shows how this works :
             return (i < 0) ? -i : i;
         }
     }
-The program prints the following :
+The program prints the following : 
     absolute value of -8 = 8
     pi = 3.1416
-Autoboxing and unboxing lets developers write cleaner code , making it easier to read .
-Some examples of palindromic words are redivider , deified , radar , level ,  kayak , reviver , racecar , redder , madam , and refer .
+Autoboxing and unboxing lets developers write cleaner code , making it easier to read . 
+Some examples of palindromic words are  deified , radar , redivider , level ,  kayak , reviver , racecar , redder , madam , and refer . 
+2019-03-28 23:20:34 INFO  root:11 - Find the longest palindrome word: 
+2019-03-28 23:20:34 INFO  root:11 - redivider
+2019-03-28 23:20:34 INFO  root:11 - Sorting by Increase 
+2019-03-28 23:20:34 INFO  root:11 - Autoboxing and Unboxing 
+Consider the following code : 
+Consider the following method : 
+The program prints the following : 
+The Unboxing example shows how this works : 
+Here is the simplest example of autoboxing : 
+The rest of the examples in this section use generics .  
+- assigned to a variable of the corresponding wrapper class . 
+- assigned to a variable of the corresponding primitive type . 
+The Java compiler applies autoboxing when a primitive value is : 
+If the conversion goes the other way , this is called unboxing .  
+The Java compiler applies unboxing when an object of a wrapper class is : 
+Thus , the compiler converts the previous code to the following at runtime : 
+For example , converting an int to an Integer , a double to a Double , and so on .  
+Autoboxing and unboxing lets developers write cleaner code , making it easier to read . 
+- passed as a parameter to a method that expects a value of the corresponding primitive type ; 
+- passed as a parameter to a method that expects an object of the corresponding wrapper class ; 
+If you are not yet familiar with the syntax of generics , see the Generics ( Updated ) lesson .  
+Although you add the int values as primitive types , rather than Integer objects , to li , the code compiles .  
+The compiler does not generate an error because it creates an Integer object from i and adds the object to li .  
+Converting an object of a wrapper type ( Integer ) to its corresponding primitive ( int ) value is called unboxing .  
+The compiler does not generate an error because it invokes the intValue method to convert an Integer to an int at runtime : 
+Some examples of palindromic words are  deified , radar , redivider , level ,  kayak , reviver , racecar , redder , madam , and refer . 
+Converting a primitive value ( an int , for example ) into an object of the corresponding wrapper class ( Integer ) is called autoboxing .  
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes .  
+Because li is a list of Integer objects , not a list of int values , you may wonder why the Java compiler does not issue a compile - time error .  
+Because the remainder ( % ) and unary plus ( += ) operators do not apply to Integer objects , you may wonder why the Java compiler compiles the method without issuing any errors .  
 
-2019-03-26 00:35:32 INFO  root:11 - Find the longest palindrome word 
-2019-03-26 00:35:32 INFO  root:11 - redivider
-2019-03-26 00:35:32 INFO  root:11 - Sorting by Increase 
-2019-03-26 00:35:32 INFO  root:11 - [Autoboxing and Unboxing, Consider the following code :, Consider the following method :, The program prints the following :, The Unboxing example shows how this works :, Here is the simplest example of autoboxing :, The rest of the examples in this section use generics . , - assigned to a variable of the corresponding wrapper class ., - assigned to a variable of the corresponding primitive type ., The Java compiler applies autoboxing when a primitive value is :, If the conversion goes the other way , this is called unboxing . , The Java compiler applies unboxing when an object of a wrapper class is :, Thus , the compiler converts the previous code to the following at runtime :, For example , converting an int to an Integer , a double to a Double , and so on . , Autoboxing and unboxing lets developers write cleaner code , making it easier to read ., - passed as a parameter to a method that expects a value of the corresponding primitive type ;, - passed as a parameter to a method that expects an object of the corresponding wrapper class ;, If you are not yet familiar with the syntax of generics , see the Generics ( Updated ) lesson . , Although you add the int values as primitive types , rather than Integer objects , to li , the code compiles . , The compiler does not generate an error because it creates an Integer object from i and adds the object to li . , Converting an object of a wrapper type ( Integer ) to its corresponding primitive ( int ) value is called unboxing . , The compiler does not generate an error because it invokes the intValue method to convert an Integer to an int at runtime :, Some examples of palindromic words are redivider , deified , radar , level ,  kayak , reviver , racecar , redder , madam , and refer ., Converting a primitive value ( an int , for example ) into an object of the corresponding wrapper class ( Integer ) is called autoboxing . , Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes . , Because li is a list of Integer objects , not a list of int values , you may wonder why the Java compiler does not issue a compile - time error . , Because the remainder ( % ) and unary plus ( += ) operators do not apply to Integer objects , you may wonder why the Java compiler compiles the method without issuing any errors . ]
+2019-03-28 23:20:34 INFO  root:11 - Sorting by Decrease 
+2019-03-28 23:20:34 INFO  root:11 - Because the remainder ( % ) and unary plus ( += ) operators do not apply to Integer objects , you may wonder why the Java compiler compiles the method without issuing any errors .  
+Because li is a list of Integer objects , not a list of int values , you may wonder why the Java compiler does not issue a compile - time error .  
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes .  
+Converting a primitive value ( an int , for example ) into an object of the corresponding wrapper class ( Integer ) is called autoboxing .  
+Some examples of palindromic words are  deified , radar , redivider , level ,  kayak , reviver , racecar , redder , madam , and refer . 
+The compiler does not generate an error because it invokes the intValue method to convert an Integer to an int at runtime : 
+Converting an object of a wrapper type ( Integer ) to its corresponding primitive ( int ) value is called unboxing .  
+The compiler does not generate an error because it creates an Integer object from i and adds the object to li .  
+Although you add the int values as primitive types , rather than Integer objects , to li , the code compiles .  
+If you are not yet familiar with the syntax of generics , see the Generics ( Updated ) lesson .  
+- passed as a parameter to a method that expects an object of the corresponding wrapper class ; 
+- passed as a parameter to a method that expects a value of the corresponding primitive type ; 
+Autoboxing and unboxing lets developers write cleaner code , making it easier to read . 
+For example , converting an int to an Integer , a double to a Double , and so on .  
+Thus , the compiler converts the previous code to the following at runtime : 
+The Java compiler applies unboxing when an object of a wrapper class is : 
+If the conversion goes the other way , this is called unboxing .  
+The Java compiler applies autoboxing when a primitive value is : 
+- assigned to a variable of the corresponding primitive type . 
+- assigned to a variable of the corresponding wrapper class . 
+The rest of the examples in this section use generics .  
+Here is the simplest example of autoboxing : 
+The Unboxing example shows how this works : 
+The program prints the following : 
+Consider the following method : 
+Consider the following code : 
+Autoboxing and Unboxing 
+

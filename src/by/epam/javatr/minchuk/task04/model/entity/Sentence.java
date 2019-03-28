@@ -66,16 +66,6 @@ public class Sentence extends TextItem {
     }
 
     @Override
-    public String getContent() {
-        StringBuilder builder = new StringBuilder();
-        for (TextItem lexeme : lexemes) {
-            builder.append(lexeme.getContent()).append(" ");
-        }
-        builder.delete(builder.length() - 1, builder.length());
-        return builder.toString();
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -92,9 +82,9 @@ public class Sentence extends TextItem {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         for (TextItem lexeme : lexemes) {
-            builder.append(lexeme.getContent()).append(" ");
+            builder.append(lexeme.toString()).append(" ");
         }
-        builder.delete(builder.length() - 1, builder.length());
+        //builder.delete(builder.length() - 1, builder.length());
         return builder.toString();
     }
 }
